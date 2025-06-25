@@ -36,7 +36,7 @@ export class Author implements AuthorInterface {
     }
 }
 
-export const AUTHOR_GM : Author = new Author (
+export const authorGiulia : Author = new Author (
     "Giulia", 
     "Moukouyou", 
     "Blogger, tutor, web developer", 

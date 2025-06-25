@@ -1,5 +1,5 @@
 import { Author } from "./author";
-import { AUTHOR_GM } from "./author";
+import { authorGiulia } from "./author";
 import { metodi_di_insegnamento } from "./cathegories";
 import { comunicazione } from "./cathegories";
 import { strumenti } from "./cathegories";
@@ -47,7 +47,7 @@ export class Post implements PostInterface {
     }
 }
 
-export const BLOG_POST_0 : Post = new Post (
+export const blogpost0 : Post = new Post (
     "0",
     "La lezione conoscitiva",
     [   "Those are the first lines of text,",
@@ -89,7 +89,7 @@ export const BLOG_POST_0 : Post = new Post (
         with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
         publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,      
     ],
-    AUTHOR_GM,
+    authorGiulia,
     "01/01/2025",
     "01/01/2025",
     metodi_di_insegnamento
